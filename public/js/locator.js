@@ -35,11 +35,4 @@ function getInfo(id, i) {
   });
 }
 
-function getMap() {
- $("td").onclick(function() {
-
- })
-}
-
-
 areaZip();
