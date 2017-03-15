@@ -1,0 +1,36 @@
+body{
+  background-color: #bb3d3d;
+}
+.img {
+  height: 90vw;
+  background-color: #bb3d3d;
+  background: url("../images/farmers-market-local-produce-520.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  /*filter: blur(5px);*/
+  z-index: 0;
+}
+
+.brand-logo.center{
+  font-family: cursive;
+  color: #6f3219;
+}
+
+.container {
+  text-rendering: optimizeLegibility;
+  color: #f5e714;
+  font-family: cursive;
+  font-size: 20px;
+  height:90vw;
+  z-index:10;
+}
+@media (max-width: 600px) {
+  div .input-field{
+    left: 26vw;
+  }
+}
+@media (min-width: 601px) {
+  div .input-field{
+    left: 43vw;
+  }
+}
