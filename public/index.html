@@ -9,51 +9,46 @@
     <!--CSS Framwork-->
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
-    <link rel="stylesheet" href="styles/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/master.css">
 
 
 
 </head>
 
 <body>
-
-    <nav>
-      <div class="nav-wrapper lime lighten-1">
-        <ul class="right hide-on-med-and-down">
-
-          <!-- <li><a><i class="fa fa-map-marker fa-2x fa-pull-left" aria-hidden="true"></i></a></li> -->
-            <li><form>
-              <div class="input-field blue-text text-darken-2">
-                <input id="search"type="search" placeholder="Search" min="5" max="5" required>
-                <label class="label-icon" for="search">
-              </div>
-            </form></li>
-        </ul>
-      </div>
-    </nav>
-
-
+  <nav class="nav-extended green darken-1">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo center">Farmers Market Locator</a>
+    </div>
+    <div class="nav-content">
+      <ul class="tabs tabs-transparent">
+        <li><form>
+          <div class="input-field">
+            <input id="search"type="search" placeholder="Search" min="5" max="5" required>
+            <label class="label-icon" for="search">
+          </div>
+        </form></li>
+      </ul>
+    </div>
+  </nav>
 
 
-  <!-- <div class="video-container center">
-    <map id="map"></map>
-    <iframe width="853" height="480" src="" frameborder="0" allowfullscreen></iframe>
-  </div> -->
-  <div class="container" >
-    <table>
-      <thead>
-        <tr>
-          <th data-field="id">Name</th>
-          <th data-field="address">Address</th>
-          <!-- <th data-field="schedule">Schedule</th> -->
-          <!-- <th data-field="products">Products</th> -->
-        </tr>
-      </thead>
-      <tbody class="marketInfo">
-      </tbody>
-    </table>
+  <div class="container img">
+    <div class="container" >
+    <div class="table">
+      <table>
+        <thead>
+          <tr>
+            <th data-field="id">Name</th>
+            <th data-field="address">Address</th>
+          </tr>
+        </thead>
+        <tbody class="marketInfo">
+        </tbody>
+      </table>
+    </div>
   </div>
-
+  </div>
 
 
   <!-- Compiled and minified JavaScript -->
