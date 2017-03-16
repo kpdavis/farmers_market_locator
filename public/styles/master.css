@@ -7,6 +7,7 @@ body{
   background: url("../images/farmers-market-local-produce-520.jpg");
   background-repeat:no-repeat;
   background-size: cover;
+  background-size:
   /*filter: blur(5px);*/
   z-index: 0;
 }
@@ -22,7 +23,7 @@ body{
   font-family: cursive;
   font-size: 20px;
   height:90vw;
-  z-index:10;
+  z-index:;
 }
 @media (max-width: 600px) {
   div .input-field{

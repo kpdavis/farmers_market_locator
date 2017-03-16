@@ -14,7 +14,7 @@ function areaZip() {
 }
 function getMarket(zip) {
   var resultsStr= ""
-  var markets = $.get("http://search.ams.usda.gov/farmersmarkets/v1/data.svc/zipSearch?zip=" + zip).then(function(markets) {
+  var markets = $.get("https://search.ams.usda.gov/farmersmarkets/v1/data.svc/zipSearch?zip=" + zip).then(function(markets) {
      var data = markets.results;
 
      for (var i = 0; i < data.length; i++) {
@@ -26,7 +26,7 @@ function getMarket(zip) {
 }
 
 function getInfo(id, i) {
-  var info = $.get("http://search.ams.usda.gov/farmersmarkets/v1/data.svc/mktDetail?id=" + id).then(function(info) {
+  var info = $.get("https://search.ams.usda.gov/farmersmarkets/v1/data.svc/mktDetail?id=" + id).then(function(info) {
     var address = info.marketdetails.Address;
     var map = info.marketdetails.GoogleLink;
     var str = "<td class=\"address\" data-field=\"address\"><a href=\"" + map + "\">" + address + "</a></td>\n</tr>";
