@@ -1,6 +1,11 @@
 body{
   background-color: #bb3d3d;
 }
+#search{
+  width: 5vw;
+  border-radius: 20px;
+  text-align: left;
+}
 .img {
   height: 90vw;
   background-color: #bb3d3d;
@@ -18,7 +23,7 @@ body{
 }
 
 .container {
-  text-rendering: optimizeLegibility;
+  text-shadow: 1px -2px black;
   color: #f5e714;
   font-family: cursive;
   font-size: 20px;
