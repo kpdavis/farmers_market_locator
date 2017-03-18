@@ -1,5 +1,6 @@
 {
   "projects": {
-    "staging": "farmermarketlocator"
+    "staging": "farmermarketlocator",
+    "default": "farmermarketlocator"
   }
 }
