@@ -39,5 +39,5 @@
 * Feature list
    * take location or search to find and map local farmers markets and there products.
 #### Wireframes and layouts
-![Wireframes1](/wireframe1.jpg)
-![Wireframes2](/wireframe2.jpg)
+![Wireframes1](/Wireframe1.jpg)
+![Wireframes2](/Wireframe2.jpg)
