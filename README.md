@@ -1,5 +1,23 @@
-# farmers_market_locator
-Proposal #1
+# The Farmers Market Locator
+
+### Introduction
+
+ The locator application was thought out for my drive to help get fresh vegetables and produce and support my local community. I would here of people going to them and often wondered where they were and when i would move would have to search hard to find the one that i would be near and/or for my new area.
+
+ This App allows for the user do do just that. If you find your self moving or visiting a new location rather then head wrenching work to find that local farmers market for the area. you can now just put in zip code and get back a list of near by farmers markets and a link to google maps to get you there. Enjoy your fresh produce and support your local farmers!!
+
+#### Web link and user story link  
+[Farmers Markets](https://farmermarketlocator.firebaseapp.com)
+[User Story](https://www.pivotaltracker.com/n/projects/1988353)
+### Application video
+
+
+[![Locator Video](https://www.youtube.com/watch?v=lraVivrD1Vg&feature=youtu.be/0.jpg)](https://youtu.be/lraVivrD1Vg)
+
+
+
+### Project work though
+#### The Farmers Market Locator Proposal
 * What problem does your project solve?
   * Allows a Consumer to find local Vendors for produce.
 * Who has this problem?
@@ -20,3 +38,6 @@ Proposal #1
   * Materialize / CSS
 * Feature list
    * take location or search to find and map local farmers markets and there products.
+#### Wireframes and layouts
+![Wireframes1](/wireframe1.jpg)
+![Wireframes2](/wireframe2.jpg)
