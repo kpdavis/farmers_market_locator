@@ -16,47 +16,47 @@
 </head>
 
 <body>
-  <nav class="nav-extended green darken-1">
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo center">Farmers Market Locator</a>
+    <nav class="nav-extended green darken-1">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Farmers Market Locator</a>
+        </div>
+        <div class="nav-content">
+            <ul class="tabs tabs-transparent">
+                <li>
+                    <form>
+                        <div class="input-field">
+                            <input id="search" type="search" placeholder="Zip" min="5" max="5" autocomplete="off" autofocus required>
+
+                        </div>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container img">
+        <div class="container">
+            <div class="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th data-field="id">Name</th>
+                            <th data-field="address">Address</th>
+                        </tr>
+                    </thead>
+                    <tbody class="marketInfo">
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
-    <div class="nav-content">
-      <ul class="tabs tabs-transparent">
-        <li><form>
-          <div class="input-field">
-            <input id="search" type="search" placeholder="Zip" min="5" max="5" autocomplete="off" autofocus required>
-            
-          </div>
-        </form></li>
-      </ul>
-    </div>
-  </nav>
 
 
-  <div class="container img">
-    <div class="container" >
-    <div class="table">
-      <table>
-        <thead>
-          <tr>
-            <th data-field="id">Name</th>
-            <th data-field="address">Address</th>
-          </tr>
-        </thead>
-        <tbody class="marketInfo">
-        </tbody>
-      </table>
-    </div>
-  </div>
-  </div>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <script src="js/locator.js" charset="utf-8"></script>
+</body>
 
-
-  <!-- Compiled and minified JavaScript -->
-  <script
-  src="https://code.jquery.com/jquery-3.1.1.js"
-  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
-  crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
-  <script src="js/locator.js" charset="utf-8"></script>
-  </body>
 </html>

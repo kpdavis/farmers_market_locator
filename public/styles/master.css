@@ -1,42 +1,49 @@
-body{
-  background-color: #bb3d3d;
-}
-#search{
-  width: 5vw;
-  border-radius: 20px;
-  text-align: left;
-}
-.img {
-  height: 90vw;
-  background-color: #bb3d3d;
-  background: url("../images/farmers-market-local-produce-520.jpg");
-  background-repeat:no-repeat;
-  background-size: cover;
-  background-size:
-  /*filter: blur(5px);*/
-  z-index: 0;
+body {
+    background-color: #bb3d3d;
 }
 
-.brand-logo.center{
-  font-family: cursive;
-  color: #6f3219;
+#search {
+    width: 5vw;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.img {
+    height: 90vw;
+    background-color: #bb3d3d;
+    background: url("../images/farmers-market-local-produce-520.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.brand-logo.center {
+    font-family: cursive;
+    color: #6f3219;
 }
 
 .container {
-  text-shadow: 1px -2px black;
-  color: #f5e714;
-  font-family: cursive;
-  font-size: 20px;
-  height:90vw;
-  z-index:;
+    text-shadow: 1px -2px black;
+    color: #f5e714;
+    font-family: cursive;
+    font-size: 20px;
+    height: 90vh;
+    width: 80vw;
 }
+
+.table {
+    width: 80vw;
+    height: 80vh;
+    overflow: auto;
+}
+
 @media (max-width: 600px) {
-  div .input-field{
-    left: 26vw;
-  }
+    div .input-field {
+        left: 26vw;
+    }
 }
+
 @media (min-width: 601px) {
-  div .input-field{
-    left: 43vw;
-  }
+    div .input-field {
+        left: 43vw;
+    }
 }
